@@ -1,4 +1,6 @@
-// 캐시백
+/*  
+    캐시백 프로그램
+*/
 import java.util.Scanner;
 public class MiniProject02 {
     public static void main(String[] args) {

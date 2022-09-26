@@ -1,4 +1,6 @@
-// 구구단 출력(1~9)
+/*
+    구구단 출력(1~9)
+*/
 public class MiniProject01 {
     public static void main(String[] args) {
         System.out.println("[구구단 출력]");

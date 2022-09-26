@@ -1,5 +1,5 @@
 /*
-이선주
+로또 당첨 프로그램
 */
 
 import java.util.*;
@@ -61,8 +61,23 @@ public class MiniProject07 {
                     i--;
                 }
             }*/
-            //중복 숫자를 뽑은 다음에 다시 빼지 말고, 이미 뽑은 숫자에 대해서는 다음에 뽑을때 뽑히지 않도록 하는 방법
-
+            
+        //중복 숫자를 뽑은 다음에 다시 빼지 말고, 이미 뽑은 숫자에 대해서는 다음에 뽑을때 뽑히지 않도록 하는 방법 
+        int num;
+        boolean isSame;
+        for (int i = 0; i < 6; i++) {
+            isSame = false;
+            num = rd.nextInt(45) + 1;
+            for (int j = 0; j < i; j++) {
+                if (list.get(j) == num) {
+                    i--;
+                    isSame = true;
+                    break;
+                }
+            }
+            if (!isSame) {
+                list.add(num);
+            }
         }
         Collections.sort(list);
 

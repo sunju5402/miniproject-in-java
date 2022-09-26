@@ -1,6 +1,4 @@
-/*
-이선주
-*/
+// 캐시백
 import java.util.Scanner;
 public class MiniProject02 {
     public static void main(String[] args) {

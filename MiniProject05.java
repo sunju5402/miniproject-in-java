@@ -1,7 +1,3 @@
-/*
-이선주
-*/
-
 import java.util.Calendar;
 import java.util.Scanner;
 

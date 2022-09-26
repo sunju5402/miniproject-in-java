@@ -1,5 +1,5 @@
-/*  
-    캐시백 프로그램
+/*
+이선주
 */
 import java.util.Scanner;
 public class MiniProject02 {

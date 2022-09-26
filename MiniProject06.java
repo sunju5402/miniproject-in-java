@@ -1,3 +1,7 @@
+/*
+이선주
+*/
+
 import java.util.Random;
 
 public class MiniProject06 {

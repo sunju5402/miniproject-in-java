@@ -1,3 +1,6 @@
+/*
+이선주
+*/
 import java.util.Scanner;
 
 public class MiniProject03 {
@@ -17,14 +20,16 @@ public class MiniProject03 {
         int fee = 10000;
         if (age < 3) {
             fee = 0;
-        } else if (age < 13 || time >= 17) {
+        } else if (age < 13) {
             fee = 4000;
         } else {
-            if (time < 17) {
-                if (c1 == 'y' || c2 == 'y') {
+          if (time >= 17) {
+              fee = 4000;
+          } else {
+              if (c1 == 'y' || c2 == 'y') {
                   fee = 8000;
-                }
-            }
+              }
+          }
         }
         System.out.println("입장료: " + fee);
     }

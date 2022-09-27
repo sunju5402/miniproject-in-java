@@ -1,7 +1,3 @@
-/*
-이선주
-*/
-
 import java.util.*;
 
 public class MiniProject07 {

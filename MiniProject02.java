@@ -1,5 +1,7 @@
 /*
-이선주
+캐시백 문제
+    - 캐시백은 백원단위로
+    - 캐시백은 최대 300원까지
 */
 import java.util.Scanner;
 public class MiniProject02 {

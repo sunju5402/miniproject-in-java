@@ -1,6 +1,3 @@
-/*
-이선주
-*/
 import java.util.Scanner;
 
 public class MiniProject03 {

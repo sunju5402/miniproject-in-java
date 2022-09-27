@@ -1,7 +1,3 @@
-/*
-이선주
-*/
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -36,11 +32,8 @@ public class MiniProject04 {
             }
         }
         regNum = year + String.format("%02d", month) +
-                String.format("%02d", date) + "-" + gen;
-
-        for (int i = 0; i < 6; i++) {
-            regNum += rd.nextInt(9) + 1;
-        }
+                String.format("%02d", date) + "-" + gen +
+                (rd.nextInt(100000) + 100000);
 
         System.out.println(regNum);
     }

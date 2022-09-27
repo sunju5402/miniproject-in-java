@@ -10,21 +10,12 @@ public class MiniProject02 {
         System.out.print("결제 금액을 입력해 주세요.(금액):");
         int price = sc.nextInt();
         int cashback = price / 10;
+        cashback -= cashback % 100;
 
-        switch (cashback / 100) {
-            case 0:
-                cashback = 0;
-                break;
-            case 1:
-                cashback = 100;
-                break;
-            case 2:
-                cashback = 200;
-                break;
-            default:
-                cashback = 300;
-                break;
+        if (cashback > 300) {
+            cashback = 300;
         }
+      
         System.out.println("결제 금액은 " + price + "원이고, 캐시백은 " + cashback + "원 입니다.");
     }
 }

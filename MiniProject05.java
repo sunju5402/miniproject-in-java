@@ -1,3 +1,6 @@
+/*
+달력 출력
+*/
 import java.util.Calendar;
 import java.util.Scanner;
 
